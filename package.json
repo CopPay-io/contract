@@ -1,0 +1,16 @@
+{
+  "name": "conpay",
+  "version": "1.0.0",
+  "description": "Ethereum contracts for conpay's crowdsale",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "zeppelin-solidity": "^1.2.0"
+  }
+}
