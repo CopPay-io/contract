@@ -36,7 +36,7 @@ contract ConpayToken is StandardToken, Ownable {
       1503921600, /*pre-ico start time*/
       1505131200, /*pre-ico end time*/
       75000000 * (10**18), /*pre-ico tokensSupply*/
-      44776, /*pre-ico rate*/
+      45000, /*pre-ico rate*/
       0, /*pre-ico perAddressCap*/
       address(0x2D0a11e28b71788ae72A9beae8FAb937584B05Fd) /*pre-ico wallet*/
     );
