@@ -9,7 +9,6 @@ contract ConpayToken is StandardToken, Ownable {
   uint public decimals = 18;
 
   uint public constant crowdsaleEndTime = 1509580800;
-  uint public constant crowdsaleTokensSupply = 1000000000 * (10**18);
 
   uint256 public startTime;
   uint256 public endTime;
@@ -25,7 +24,7 @@ contract ConpayToken is StandardToken, Ownable {
   event SaleStop();
 
   modifier crowdsaleTransferLock() {
-    require(now > crowdsaleEndTime || tokensSold >= crowdsaleTokensSupply);
+    require(now > crowdsaleEndTime);
     _;
   }
 
