@@ -29,7 +29,7 @@ contract ConpayToken is StandardToken, Ownable {
     _;
   }
 
-  function TestToken() {
+  function ConpayToken() {
     totalSupply = 2325000000 * (10**18);
     balances[msg.sender] = totalSupply;
     startSale(
